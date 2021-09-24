@@ -1,3 +1,15 @@
+/* 
+What should the functions have as parameter(s) ? What type should they be?
+What should the functions return?
+
+The functions should have the opposite unit as a parameter. 
+So if you're converting it into Celsius, you put farenheit 
+as your parameter. Both the parameter and the return type 
+of the function should be of type double. And obviously, 
+the functions should ideally return the conversion of the
+unit.
+*/
+
 import java.util.Scanner;
 
 public class CtoFtester {
