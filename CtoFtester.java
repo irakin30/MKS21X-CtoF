@@ -20,7 +20,7 @@ public class CtoFtester {
 
         System.out.println("Enter C or F...");
         String unit = in.nextLine();
-        in.close();
+        in.close(); //Nevermind, I found out how to close it.
 
         if (unit.equals("C")) {
             System.out.printf("%.1f C = %.1f F", number, toFarenheit(number));
