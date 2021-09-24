@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class CtoFtester {
     public static double toCelcius(double farenheit) {
-        return (farenheit / 1.8) - 32.0;
+        return (farenheit - 32.0) / 1.8;
     }
 
     public static double toFarenheit(double celcius) {
